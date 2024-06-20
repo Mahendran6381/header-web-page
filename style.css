@@ -8,4 +8,275 @@ body {
     max-width: 100vw;
     box-sizing: border-box;
 }
+.gift .header{
+    background-image: url("./Assets/Gift/Rectangle 6.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    min-height:35vw;
+    width:100vw;
+    display: flex;
+    align-items: center;
+}
 
+.gift .header .head{
+color: white;
+font-size: 4vw;
+text-transform: uppercase;
+/* position: relative; */
+/* top: 15vw; */
+width: 29%;
+padding: 2vw;
+font-weight: 700;
+}
+
+.gift .return-gift {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.gift .return-gift .inner-return-gift{
+    display: flex;
+    flex-direction: row-reverse;
+    gap:5vw;
+    padding:4vw 7vw;
+}
+.gift .return-gift .inner-return-gift .main{
+    width: 33vw;
+    height: 24vw;
+}
+.gift .return-gift .inner-return-gift .p{
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.gift .return-gift .inner-return-gift .p .head{
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-bottom: 2vw;
+}
+.gift .return-gift .inner-return-gift .p .ind-p{
+    display: flex;
+    gap:1vw;
+}
+.gift .return-gift .inner-return-gift .p .ind-p img{
+    height: 1.5vw;
+    width: 1.5vw;
+    position: relative;
+    top: 0.9vw;
+}
+.gift .return-gift .inner-return-gift .p .ind-p p{
+    font-size: 1vw;
+    font-weight: 400;
+}
+.gift .initiate{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.gift .initiate .inner-initiate{
+    padding: 4vw 8vw;
+    display:flex;
+    align-items:center;
+    gap:7vw;
+    background-color: rgb(182, 253, 230);
+}
+.gift .initiate .inner-initiate .p{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+}
+.gift .initiate .inner-initiate .p .head{
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-bottom: 2vw;
+}
+.gift .initiate .inner-initiate .p .ind-p{
+    display: flex;
+    gap:1vw;
+}
+.gift .initiate .inner-initiate .p .ind-p img{
+    height: 1.5vw;
+    width: 1.5vw;
+    position: relative;
+    top: 0.9vw;
+}
+.gift .initiate .inner-initiate .p .ind-p p{
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.gift .initiate .inner-initiate img{
+width: 32vw;
+}
+
+.gift .graditude-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+.gift .graditude-center .inner-graditude-center{
+     display:flex;
+     flex-direction:column;
+     padding: 4vw 8vw;
+     align-items:center;
+}
+.gift .graditude-center .inner-graditude-center .head{
+    font-size: 2.5vw;
+    font-weight: 700;
+    width:70%;
+    text-align:center;
+}
+.gift .graditude-center .inner-graditude-center .blue{
+    background: #10BBC2;
+    width: 10vw;
+    height: 0.5vh;
+    margin:2vw 0vw;
+}
+.gift .graditude-center .inner-graditude-center .contents{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+}
+.gift .graditude-center .inner-graditude-center .contents .sec{
+   display:flex;
+   gap:3vw;
+}
+.gift .graditude-center .inner-graditude-center .contents .sec1{
+    flex-direction: row-reverse;
+}
+.gift .graditude-center .inner-graditude-center .contents .sec2{
+flex-direction: row;
+}
+
+.gift .graditude-center .inner-graditude-center .contents .sec .contents{
+    display:flex;
+    flex-direction: column;
+    gap:2vw;
+}
+.gift .graditude-center .inner-graditude-center .contents .sec .contents .ind-p{
+    display:flex;
+    gap:1vw;
+}
+.gift .graditude-center .inner-graditude-center .contents .sec .contents .ind-p img{
+    width:1.5vw;
+    height:1.5vw;
+    position:relative;
+    top:1vw;
+}
+.gift .graditude-center .inner-graditude-center .contents .sec .contents .ind-p p{
+    font-size:1vw;
+}
+.gift .graditude-center .inner-graditude-center .contents .sec1 img {
+    height: 23vw;
+}
+.gift .graditude-center .inner-graditude-center .contents .sec2 img {
+    height: 29vw;
+    width: 37vw;
+}
+.gift .lk-graditude-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-image: url("./Assets/Gift/Rectangle 318.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.gift .lk-graditude-center .inner-lk-graditude-center{
+    display:flex;
+    flex-direction:column;
+    padding: 4vw 8vw;
+    align-items:center;
+    color:white;
+}
+.gift .lk-graditude-center .inner-lk-graditude-center .head{
+    font-size: 2.5vw;
+    font-weight: 700;
+    width:70%;
+    text-align:center;
+    line-height:4vw;
+}
+.gift .lk-graditude-center .inner-lk-graditude-center .blue{
+    background: #10BBC2;
+    width: 10vw;
+    height: 0.5vh;
+    margin:2vw 0vw;
+}
+
+.gift .lk-graditude-center .inner-lk-graditude-center .contents{
+    display: flex;
+    gap:4vw;
+}
+.gift .lk-graditude-center .inner-lk-graditude-center .contents .sec{
+    display:flex;
+    flex-direction:column;
+    gap:2vw;
+}
+.gift .lk-graditude-center .inner-lk-graditude-center .contents .sec .ind-p{
+    display:flex;
+    gap:1vw;
+}
+.gift .lk-graditude-center .inner-lk-graditude-center .contents .sec .ind-p img{
+    width:1.5vw;
+    height:1.5vw;
+    position:relative;
+    top:1vw;
+}
+.gift .lk-graditude-center .inner-lk-graditude-center .contents .sec .ind-p p{
+    font-size:1vw;
+}
+.gift .visit {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-image: url("./Assets/Gift/Group 703.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
+}
+.gift .visit .inner-visit{
+    display:flex;
+    flex-direction:column;
+    padding: 3vw 1vw;
+    align-items: center;
+    gap:3vw;
+    text-align:center;
+}
+.gift .visit .inner-visit .head{
+    font-size: 2.5vw;
+    font-weight: 700;
+    width:80%;
+}
+.gift .visit .inner-visit .p{
+    font-size:1vw;
+    width:60vw;
+}
+
+.gift .family{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+.gift .family{
+    
+}
