@@ -8,6 +8,12 @@ body {
     max-width: 100vw;
     box-sizing: border-box;
 }
+.gift{
+    line-height:1.5vw;
+}
+.gift .head{
+    line-height: 5vw;
+}
 .gift .header{
     background-image: url("./Assets/Gift/Rectangle 6.png");
     background-repeat: no-repeat;
@@ -84,7 +90,7 @@ font-weight: 700;
     display:flex;
     align-items:center;
     gap:7vw;
-    background-color: rgb(182, 253, 230);
+    background-color: rgb(232 255 248);
 }
 .gift .initiate .inner-initiate .p{
     display: flex;
@@ -277,6 +283,140 @@ flex-direction: row;
     width: 100vw;
 
 }
-.gift .family{
+.gift .family .inner-family{
+    display:flex;
+    padding: 4vw 8vw;
+    align-items:center;
+    gap:5vw;
+}
+.gift .family .inner-family img{
+    width:35vw;
+
+}
+.gift .family .inner-family .contents{
+    display: flex;
+    flex-direction:column;
+    gap:1vw;
+}
+.gift .family .inner-family .contents .head{
+    font-size:2.8vw;
+    font-weight: 600;
+}
+.gift .family .inner-family .contents .ind-p{
+    display: flex;
+    gap:2vw;
+}  
+.gift .family .inner-family .contents .ind-p img{
+    height:1.5vw;
+    width:1.5vw;
+    position: relative;
+    top:1vw;
+}
+
+.gift .family .inner-family .contents .ind-p p{
+    font-size: 1vw;
+    font-weight: 500;
+}
+.gift .steps{
+    display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+}
+.gift .steps .inner-steps{
+    display:flex;
+    flex-direction:column;
+    padding: 4vw 8vw;
+    align-items:center;
+}
+.gift .steps .inner-steps .head{
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-align:center;
+}
+.gift .steps .inner-steps .blue{
+    background: #10BBC2;
+    width: 10vw;
+    height: 0.5vh;
+    margin:2vw 0vw;
+}
+.gift .steps .inner-steps .contents{
+    display: flex;
+    gap:4vw;
+}
+.gift .steps .inner-steps .contents .main{
+    display:flex;
+    flex-direction:column ;
+    gap:1.5vw;
+    font-size:1vw;
+    font-weight: 600;
+    width:60%;
+}
+.gift .steps .inner-steps .contents .main .head{
+    font-size:1.4vw;
+    font-size:600;
+    margin-top:0.5vw;
+    margin-bottom:0.5vw;
+    text-align:left;
+}
+.gift .steps .inner-steps .contents .main .ind-p{
+    display:flex;
+    gap:2vw;
+    font-weight:500;
+    text-align: justify;
+}
+.gift .steps .inner-steps .contents .main .ind-p img{
+    height:1.5vw;
+    width:1.5vw;
+    position: relative;
+    top:1vw;
+}
+.gift .steps .inner-steps .contents .main .ind-p p{
+    font-weight: 500;
+}
+
+.gift .steps .inner-steps .contents .images {
+    position: relative;
+    width: 60%;
+    height:110vh;
+    top:8vw;
+}
+.gift .steps .inner-steps .contents .images .img1{
+    position: relative;
+    height: 24vw;
+    width: 24vw;
+    left: 3vw;
+    top: 5vw;
+}
+.gift .steps .inner-steps .contents .images .img2{
+    position: relative;
+    left: 27vw;
+    height: 20vw;
+    width: 16vw;
+    top: -31vw;
+}
+.gift .steps .inner-steps .contents .images .img3{
+     position: relative;
+    left: 15vw;
+    top: -20vw;
+    height: 23vw;
+    width: 27vw;
+}
+.gift .steps .inner-steps .contents .images .img4{
+     position: relative;
+        top: -36vw;
+    left: -20vw;
+    height: 5vw;
+    width: 4vw;
+}
+.gift .steps .inner-steps .contents .images .img5{
+    position: relative;
+    top: -47vw;
+    left: -2vw;
+    height: 8vw;
+    width: 8vw;
+}
+
+.gift .circle-que{
     
 }
